@@ -83,8 +83,6 @@ python tools/verify_endpoints.py
 swagger-demo
 ├─ pom.xml
 ├─ README.md
-├─ docs/
-│  └─ SpringBoot3整合Swagger接口文档实战教程.md   # 公众号教程（最终稿）
 ├─ tools/
 │  ├─ verify_endpoints.py                        # 端到端验证脚本
 │  ├─ build.log / deps.log / app.log              # 构建、依赖树、运行日志
