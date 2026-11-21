@@ -1,0 +1,25 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-11-20T19:34:35.317+08:00  INFO 33632 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplication       : Starting SwaggerDemoApplication v1.0.0 using Java 17.0.12 with PID 33632 (D:\project\swagger-demo\target\swagger-demo-1.0.0.jar started by Administrator in d:\project)
+2026-11-20T19:34:35.320+08:00  INFO 33632 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-11-20T19:34:36.292+08:00  INFO 33632 --- [swagger-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-20T19:34:36.302+08:00  INFO 33632 --- [swagger-demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-20T19:34:36.302+08:00  INFO 33632 --- [swagger-demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-11-20T19:34:36.326+08:00  INFO 33632 --- [swagger-demo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-20T19:34:36.326+08:00  INFO 33632 --- [swagger-demo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2026-11-20T19:34:36.884+08:00  INFO 33632 --- [swagger-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-20T19:34:36.901+08:00  INFO 33632 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplication       : Started SwaggerDemoApplication in 1.979 seconds (process running for 2.302)
+2026-11-20T19:34:39.840+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-20T19:34:39.840+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-20T19:34:39.840+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-11-20T19:34:40.102+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 241 ms
+2026-11-20T19:34:40.175+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 43 ms
+2026-11-20T19:34:40.203+08:00  INFO 33632 --- [swagger-demo] [nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 20 ms

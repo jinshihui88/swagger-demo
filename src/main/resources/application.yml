@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: swagger-demo
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
+    display-request-duration: true
+  # 注意：项目已定义 GroupedOpenApi 分组，此处不再启用全局 packages-to-scan。
+  # 实测：全局扫描包会与分组自身的 packagesToScan 叠加，导致分组路径隔离失效。
+  # packages-to-scan: com.example.swagger.controller
+
+logging:
+  charset:
+    console: UTF-8

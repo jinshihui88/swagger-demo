@@ -1,0 +1,7 @@
+# 生产环境：关闭对外接口文档，避免暴露接口结构与调试入口
+# 激活方式：--spring.profiles.active=prod
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

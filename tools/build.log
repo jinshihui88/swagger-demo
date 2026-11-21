@@ -1,0 +1,77 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:swagger-demo >----------------------
+[INFO] Building swagger-demo 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ swagger-demo ---
+[INFO] Deleting D:\project\swagger-demo\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ swagger-demo ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ swagger-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 14 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ swagger-demo ---
+[INFO] skip non existing resourceDirectory D:\project\swagger-demo\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ swagger-demo ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ swagger-demo ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.swagger.SwaggerDemoApplicationTests
+19:34:13.888 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.swagger.SwaggerDemoApplicationTests]: SwaggerDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:34:13.957 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.swagger.SwaggerDemoApplication for test class com.example.swagger.SwaggerDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-11-20T19:34:14.276+08:00  INFO 8080 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplicationTests  : Starting SwaggerDemoApplicationTests using Java 17.0.12 with PID 8080 (started by Administrator in D:\project\swagger-demo)
+2026-11-20T19:34:14.277+08:00  INFO 8080 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-11-20T19:34:15.197+08:00  INFO 8080 --- [swagger-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-11-20T19:34:15.210+08:00  INFO 8080 --- [swagger-demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-20T19:34:15.211+08:00  INFO 8080 --- [swagger-demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-11-20T19:34:15.252+08:00  INFO 8080 --- [swagger-demo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-20T19:34:15.253+08:00  INFO 8080 --- [swagger-demo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2026-11-20T19:34:15.830+08:00  INFO 8080 --- [swagger-demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 52666 (http) with context path '/'
+2026-11-20T19:34:15.841+08:00  INFO 8080 --- [swagger-demo] [           main] c.e.swagger.SwaggerDemoApplicationTests  : Started SwaggerDemoApplicationTests in 1.787 seconds (process running for 2.389)
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-11-20T19:34:16.312+08:00  INFO 8080 --- [swagger-demo] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-20T19:34:16.312+08:00  INFO 8080 --- [swagger-demo] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-20T19:34:16.314+08:00  INFO 8080 --- [swagger-demo] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-20T19:34:16.572+08:00  INFO 8080 --- [swagger-demo] [o-auto-1-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 170 ms
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.897 s -- in com.example.swagger.SwaggerDemoApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ swagger-demo ---
+[INFO] Building jar: D:\project\swagger-demo\target\swagger-demo-1.0.0.jar
+[INFO] 
+[INFO] --- spring-boot:3.5.16:repackage (repackage) @ swagger-demo ---
+[INFO] Replacing main artifact D:\project\swagger-demo\target\swagger-demo-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to D:\project\swagger-demo\target\swagger-demo-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.496 s
+[INFO] Finished at: 2026-11-20T19:34:17+08:00
+[INFO] ------------------------------------------------------------------------
